@@ -33,7 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CS.Program</StartupObject>
+    <StartupObject>
+    </StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,19 +47,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cond1.cs" />
-    <Compile Include="Cond2.cs" />
-    <Compile Include="Cond3.cs" />
-    <Compile Include="MaxSubArraySum.cs" />
+    <Compile Include="Arrays\CopyArray.cs" />
+    <Compile Include="Arrays\Matrix addition.cs" />
+    <Compile Include="Arrays\MaxElement.cs" />
+    <Compile Include="Arrays\Print2DArray.cs" />
+    <Compile Include="Arrays\SearchArray.cs" />
+    <Compile Include="Arrays\SumOfElements.cs" />
+    <Compile Include="Loops\CountOfDigits.cs" />
+    <Compile Include="Loops\ReverseNumber.cs" />
+    <Compile Include="Loops\SumOfDigits.cs" />
+    <Compile Include="Methods\Method Loading\SumOfDifferDataTypes.cs" />
+    <Compile Include="Nullable Types\NullCoalescing.cs" />
+    <Compile Include="OOP Concepts\Class Members\EmployeeMembers.cs" />
+    <Compile Include="Conditional Statements\Cond2.cs" />
+    <Compile Include="Conditional Statements\Cond3.cs" />
+    <Compile Include="Arrays\MaxSubArraySum.cs" />
+    <Compile Include="Methods\AreaOfCircle.cs" />
+    <Compile Include="Methods\Calculator.cs" />
+    <Compile Include="Methods\FullName.cs" />
+    <Compile Include="Methods\parameters\Employee_NP.cs" />
+    <Compile Include="Methods\parameters\OutParameter.cs" />
+    <Compile Include="Methods\parameters\RestaurantBill.cs" />
+    <Compile Include="Methods\parameters\StdMarksOP.cs" />
+    <Compile Include="Methods\PrimeNumber.cs" />
+    <Compile Include="Methods\PrimeNumbers.cs" />
+    <Compile Include="OOP Concepts\Class Members\Student.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SlidingWindowMax.cs" />
-    <Compile Include="SwitchContinue.cs" />
-    <Compile Include="TargetSum.cs" />
-    <Compile Include="UniqueCharacter.cs" />
+    <Compile Include="Arrays\SlidingWindowMax.cs" />
+    <Compile Include="Conditional Statements\SwitchContinue.cs" />
+    <Compile Include="Arrays\TargetSum.cs" />
+    <Compile Include="Strings\UniqueCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
