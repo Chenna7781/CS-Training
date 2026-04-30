@@ -60,6 +60,8 @@
     <Compile Include="Collections\Properties\Person.cs" />
     <Compile Include="Exception Handling\ArrayIndex.cs" />
     <Compile Include="Exception Handling\Custom Exceptions\AgeException.cs" />
+    <Compile Include="Exception Handling\DemoException.cs" />
+    <Compile Include="Exception Handling\InnerExceptionn.cs" />
     <Compile Include="Exception Handling\NullReference.cs" />
     <Compile Include="Func Delegates\F1.cs" />
     <Compile Include="Loops\CountOfDigits.cs" />
